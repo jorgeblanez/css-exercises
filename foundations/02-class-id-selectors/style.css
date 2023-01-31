@@ -1,0 +1,24 @@
+.odd, 
+.cooler
+{
+    background-color: lightpink;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.cooler
+{
+    font-size: 24px;
+}
+
+#A
+{
+    color: blue;
+    font-size: 36px;
+}
+
+#B
+{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
