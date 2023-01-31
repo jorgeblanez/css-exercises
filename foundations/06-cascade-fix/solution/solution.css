@@ -37,7 +37,11 @@ div.text {
   Then we placed it after the .para selector, taking advantage of the rule order since both selectors have the same specificity. 
   
   Another solution would be keeping it in its original place and just chaining selectors, giving this rule a higher specificity:
-
+div.text {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
+}
   p.small-para {
     font-size: 14px;
     font-weight: 800;
